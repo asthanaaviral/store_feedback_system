@@ -35,7 +35,7 @@ const Login = () => {
     setApiError('');
 
     try {
-      const res = await api.post('/auth/login', form);
+      const res = await api.post('/api/auth/login', form);
       login(res.data.user, res.data.token);
 
       const redirects = {
