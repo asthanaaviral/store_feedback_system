@@ -17,7 +17,10 @@ app.use(helmet());
 
 
 app.use(cors({
-  origin: true,
+  origin: [
+    "http://localhost:5173",
+    "https://store-feedback-system.vercel.app"
+  ],
   credentials: true,
 }));
 
