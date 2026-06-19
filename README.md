@@ -10,7 +10,7 @@ As part of the assessment, only the source code submission was required. To demo
 **Aviral Asthana**
 
 ### 🔗 Live Demo
-* **Frontend:** https://store-feedback-system.vercel.app
+* **Application:** https://store-feedback-system.vercel.app
 * **Backend API:** https://store-feedback-system-api.onrender.com/api
 
 ### 🚀 Deployment Infrastructure
@@ -19,7 +19,7 @@ As part of the assessment, only the source code submission was required. To demo
 * **Backend:** Render
 * **Database:** Railway (MySQL)
 
-<br><br>
+<br>
 
 ---
 
