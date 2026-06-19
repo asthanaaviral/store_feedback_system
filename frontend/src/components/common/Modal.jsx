@@ -28,7 +28,7 @@ const Modal = ({ isOpen, onClose, title, children }) => {
             onClick={onClose}
             className="text-slate-400 hover:text-slate-600 text-xl leading-none"
           >
-            x
+            ✕
           </button>
         </div>
         <div className="px-6 py-5">{children}</div>

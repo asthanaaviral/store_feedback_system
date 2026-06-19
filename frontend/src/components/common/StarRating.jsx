@@ -11,7 +11,7 @@ const StarRating = ({ value = 0, onChange, readOnly = false, size = 'md' }) => {
   };
 
   return (
-    <div className="flex items-center gap-0.5" id="star-rating">
+    <div className="flex items-center gap-0.5">
       {[1, 2, 3, 4, 5].map((star) => (
         <button
           key={star}
@@ -28,9 +28,6 @@ const StarRating = ({ value = 0, onChange, readOnly = false, size = 'md' }) => {
           <span className={star <= current ? 'text-yellow-400' : 'text-slate-200'}>★</span>
         </button>
       ))}
-      {value > 0 && (
-        <span className="text-xs text-slate-500 ml-1">({value}/5)</span>
-      )}
     </div>
   );
 };
