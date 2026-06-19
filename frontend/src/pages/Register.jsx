@@ -33,7 +33,7 @@ const Register = () => {
     setApiError('');
 
     try {
-      await api.post('/api/auth/register', {
+      await api.post('/auth/register', {
         name: form.name,
         email: form.email,
         address: form.address,
