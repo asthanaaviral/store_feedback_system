@@ -55,7 +55,7 @@ const Sidebar = () => {
       </nav>
 
       <div className="px-5 py-4 border-t border-slate-700">
-        <p className="text-slate-500 text-xs">© 2024 Roxiler Systems</p>
+        <p className="text-slate-500 text-xs">Made with ❤️ by Aviral.</p>
       </div>
     </aside>
   );
