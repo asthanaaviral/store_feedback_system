@@ -32,7 +32,7 @@ const UpdatePassword = () => {
     setApiError('');
 
     try {
-      await api.put('/auth/update-password', { password: form.password });
+      await api.put('/api/auth/update-password', { password: form.password });
       setSuccess(true);
       setForm({ password: '', confirmPassword: '' });
     } catch (err) {
