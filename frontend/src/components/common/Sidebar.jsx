@@ -28,7 +28,7 @@ const Sidebar = () => {
   return (
     <aside className="w-60 bg-slate-800 flex flex-col shrink-0">
       <div className="px-5 py-5 border-b border-slate-700">
-        <h1 className="text-white font-semibold text-base leading-tight">
+        <h1 className="text-white font-bold text-xl leading-tight">
           Store Rating
         </h1>
         <p className="text-slate-400 text-xs mt-0.5">Platform</p>
